@@ -17,24 +17,24 @@
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Bday my Friend"
-        android:textSize="36sp"
-        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-light"
         android:paddingLeft="15dp"
-        android:paddingTop="15dp"/>
+        android:paddingTop="15dp"
+        android:text="Happy Bday my Friend"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
+        android:layout_alignParentRight="true"
         android:fontFamily="sans-serif-light"
-        android:text="From Sooraj"
+        android:paddingBottom="15dp"
         android:paddingRight="15dp"
-        android:paddingBottom="15dp" />
+        android:text="From Sooraj"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
 
 </RelativeLayout>
